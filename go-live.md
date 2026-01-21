@@ -12,7 +12,7 @@ Seamlessly transition NPTA Canada to the new automated inventory system.
 
 ## The 4-Hour Production Cutover
 
-We will select a 4-hour window (e.g., 8:00 AM - 12:00 PM EST) to perform the switch. This allows time to:
+We will select a 4-hour window (e.g., 8:00 AM - 12:00 PM PST) to perform the switch. This allows time to:
 
 1. Configure the environment and import initial inventory.
 2. Test the system end-to-end before turning it customer-facing.
