@@ -53,7 +53,6 @@ No action needed for successful fulfillments or expected skips. Only respond to 
 3. Click Clear.
 4. Open Zapier -> Zap History -> find the failed run -> click **Replay**.
 
-
 ---
 
 ### Scenario 3: Customer Requests Refund
