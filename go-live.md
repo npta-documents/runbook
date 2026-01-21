@@ -22,7 +22,7 @@ We will select a 4-hour window (e.g., 8:00 AM - 12:00 PM EST) to perform the swi
 
 ---
 
-## Phase 1: Preparation & Safety (Shopify CYA)
+## Phase 1: Preparation & Safety
 
 Prior to connecting the new system, we will create a full **Snapshot** of the NPTA-CA Shopify store's products. This includes product names, prices, and existing inventory levels to ensure we have a baseline backup.
 
