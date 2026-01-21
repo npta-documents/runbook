@@ -1,6 +1,6 @@
 # Reference Guide
 
-[← Back to Index](index.md)
+[<- Back to Index](index.md)
 
 ---
 
@@ -10,13 +10,13 @@
 |-------|---------|-----------|
 | **NPTA Catalogue** | Product definitions with SKUs, entitlements, and fulfillment mode | Yes |
 | **Key Inventory** | Live stock levels by product/component (total, used, available) | No (auto-refreshed) |
-| **Import Keys** | Staging area — paste new keys here, run Import | Yes |
+| **Import Keys** | Staging area - paste new keys here, run Import | Yes |
 | **Import History** | Audit log of all imported keys with timestamps | No (auto-populated) |
 
 ### Quick Notes
 
-- **Catalogue `entitlements` column** — Must match the key format (e.g., `NASM-CPT-FULL`).
-- **Catalogue `fulfillment` column** — `AUTO` (system) or `EXTERNAL` (manual).
+- **Catalogue `entitlements` column** - Must match the key format (e.g., `NASM-CPT-FULL`).
+- **Catalogue `fulfillment` column** - `AUTO` (system) or `EXTERNAL` (manual).
 - **Key Inventory** auto-updates after every order and import.
 - **Import History** is your recovery source if keys need reconstruction.
 
@@ -67,7 +67,7 @@
 
 ### Step 2: Sync from Shopify
 
-1. Open Google Sheets → NPTA Control Panel (sidebar).
+1. Open Google Sheets -> NPTA Control Panel (sidebar).
 2. Click **Sync from Shopify**.
 3. New product appears in NPTA Catalogue.
 
@@ -103,7 +103,7 @@ Use this when keys exist for courses not sold standalone (bundles, promos, multi
 
 ### Step 1: Import Keys
 
-Import keys with any product code — no matching Shopify product required:
+Import keys with any product code - no matching Shopify product required:
 
 ```
 CANADA | ELEIKO | STR1 | combined | KEY-123 | 15
@@ -120,9 +120,9 @@ entitlements: ELEIKO-STR1-FULL,NASM-CPT-FULL
 ### Step 3: Sync & Sell
 
 1. Click **Sync Catalogue**.
-2. Customer purchases → system allocates keys by entitlement.
+2. Customer purchases -> system allocates keys by entitlement.
 
-**Example:** A "Career Bundle" Shopify product with entitlements `NASM-CPT-FULL,NASM-CNC-FULL,NCSF-STS-FULL` will allocate keys from three different courses across two providers — even though only one product exists in Shopify.
+**Example:** A "Career Bundle" Shopify product with entitlements `NASM-CPT-FULL,NASM-CNC-FULL,NCSF-STS-FULL` will allocate keys from three different courses across two providers - even though only one product exists in Shopify.
 
 ---
 
@@ -137,7 +137,7 @@ The entitlements system is fully flexible. You can create any Shopify product an
 4. Assign entitlements for whatever courses you want to include.
 5. Sync Catalogue.
 
-The system does not enforce any relationship between product name, SKU, and entitlements — you define what each product grants.
+The system does not enforce any relationship between product name, SKU, and entitlements - you define what each product grants.
 
 ---
 
@@ -146,9 +146,9 @@ The system does not enforce any relationship between product name, SKU, and enti
 | Term | Definition |
 |------|------------|
 | **component** | Key type: `combined` (full access), `content` (course only), `exam` (exam only) |
-| **FIFO** | First-In-First-Out — oldest keys are assigned first |
+| **FIFO** | First-In-First-Out - oldest keys are assigned first |
 | **entitlement** | Access grant format: `PROVIDER-PRODUCT_CODE-LEVEL` (e.g., `NASM-CPT-FULL`) |
-| **NSBK** | NASM Stock Bundle Key — the system automatically uses these when a customer orders exactly the matching courses |
+| **NSBK** | NASM Stock Bundle Key - the system automatically uses these when a customer orders exactly the matching courses |
 
 ---
 
