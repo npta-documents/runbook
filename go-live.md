@@ -57,7 +57,7 @@ Prior to connecting the new system, we will create a full **snapshot** of the NP
 
 ## Rollback Plan
 
-If a critical issue is identified during verification, we immediately disable the new automation and re-enable EDP. No data or orders are lost.
+If a critical issue is identified during verification, we immediately disable the new automation and re-enable EDP. No orders are lost.
 
 ---
 

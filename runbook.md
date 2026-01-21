@@ -110,9 +110,3 @@ No action needed for successful fulfillments or expected skips. Only respond to 
 - Multiple consecutive failures
 - Zapier errors
 - Any issue you cannot resolve with this runbook
-
-### Contact
-
-**Damian Delmas**
-- Slack: @damian
-- Email: damiandelmas@gmail.com
