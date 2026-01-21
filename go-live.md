@@ -51,7 +51,7 @@ Prior to connecting the new system, we will create a full **snapshot** of the NP
 
 ## Phase 4: Full Production Launch
 
-- **Activate customer communications:** Upon successful verification, update the Zapier configuration to route fulfillment emails directly to customer email addresses, transitioning the system from test to live production traffic.
+- **Activate customer fulfillment:** Upon successful verification, update the Zapier configuration to route fulfillment emails directly to customer email addresses, transitioning the system from test to live production traffic.
 
 ---
 
