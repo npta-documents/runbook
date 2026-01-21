@@ -41,7 +41,7 @@ Prior to connecting the new system, we will create a full **snapshot** of the NP
 
 - **Disable EDP:** NPTA turns off the legacy EDP app.
 - **Enable automation:** Damian enables the Zapier workflows.
-- **Live verification:** Place a draft order on the live store to confirm:
+- **Live verification:** Place a test order on the live store to confirm:
   - Slack notification received
   - Email delivered to test recipient
   - Keys assigned correctly

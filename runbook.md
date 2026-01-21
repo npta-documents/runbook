@@ -26,7 +26,7 @@ No action needed for successful fulfillments or expected skips. Only respond to 
 #### Reason 1: Keys Out of Stock
 
 **Steps:**
-1. Note the order ID from the Slack alert.
+1. Note the order ID from the Slack alert (or Shopify Admin → Orders → ID in URL).
 2. Open Google Sheets → NPTA Control Panel (sidebar).
 3. Check if keys are available for that product in Key Inventory sheet.
 4. If **out of stock**: Import more keys, then proceed to Scenario 2.
@@ -45,7 +45,7 @@ No action needed for successful fulfillments or expected skips. Only respond to 
 
 ### Scenario 2: Retry Failed Fulfillment
 
-**When:** Keys were out of stock but now imported, or need to retry after fixing entitlements.
+**When:** Fulfillment failed and you've fixed the issue (imported keys or added entitlements).
 
 **Steps:**
 1. Open Google Sheets → Sidebar → **Clear Order Cache**.
@@ -53,7 +53,6 @@ No action needed for successful fulfillments or expected skips. Only respond to 
 3. Click Clear.
 4. Open Zapier → Zap History → find the failed run → click **Replay**.
 
-*Note: Clearing the cache removes the "already processed" lock, allowing the system to fulfill the order fresh.*
 
 ---
 
@@ -65,7 +64,8 @@ No action needed for successful fulfillments or expected skips. Only respond to 
 1. Open Google Sheets → Sidebar → **Release Keys**.
 2. Enter order ID.
 3. Click Release.
-4. Verify keys returned: Check Key Inventory sheet, count should increase.
+4. Confirmation appears: "Released X keys."
+5. Verify: Key Inventory count increases.
 
 *Note: Released keys become available for future orders (FIFO).*
 
@@ -87,7 +87,7 @@ No action needed for successful fulfillments or expected skips. Only respond to 
 **Steps:**
 1. Obtain new keys from provider (NASM, NCSF, etc.).
 2. Open Google Sheets → Import Keys sheet.
-3. Paste keys in format: `region | provider | product_code | component | keycode | seats`
+3. Paste keys in format: `CANADA | provider | product_code | component | keycode | seats`
 4. Click sidebar → **Import Keys**.
 5. Verify: Key Inventory sheet updates, Catalogue "available" column increases.
 

@@ -15,7 +15,7 @@
 
 ### Quick Notes
 
-- **Catalogue `entitlements` column** — Must match the key's composite identifier (e.g., `NASM-CPT-FULL`).
+- **Catalogue `entitlements` column** — Must match the key format (e.g., `NASM-CPT-FULL`).
 - **Catalogue `fulfillment` column** — `AUTO` (system) or `EXTERNAL` (manual).
 - **Key Inventory** auto-updates after every order and import.
 - **Import History** is your recovery source if keys need reconstruction.
@@ -76,7 +76,7 @@
 In the `entitlements` column, enter what access this product grants:
 
 ```
-PROVIDER-COURSE-LEVEL
+PROVIDER-PRODUCT_CODE-LEVEL
 ```
 
 **Examples:**
@@ -148,7 +148,7 @@ The system does not enforce any relationship between product name, SKU, and enti
 | **component** | Key type: `combined` (full access), `content` (course only), `exam` (exam only) |
 | **FIFO** | First-In-First-Out — oldest keys are assigned first |
 | **entitlement** | Access grant format: `PROVIDER-PRODUCT_CODE-LEVEL` (e.g., `NASM-CPT-FULL`) |
-| **NSBK** | NASM Stock Bundle Key — prefix for multi-course bundle keys |
+| **NSBK** | NASM Stock Bundle Key — the system automatically uses these when a customer orders exactly the matching courses |
 
 ---
 
