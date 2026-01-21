@@ -6,7 +6,7 @@
 
 ## Objective
 
-Seamlessly transition NPTA Canada from manual fulfillment (EDP) to the new automated inventory system.
+Seamlessly transition NPTA Canada to the new automated inventory system.
 
 ---
 
@@ -28,7 +28,7 @@ Prior to connecting the new system, we will create a full **snapshot** of the NP
 
 ---
 
-## Phase 2: Execution (Damian)
+## Phase 2: Execution
 
 - **Configure environment:** Set production variables and sync the product catalogue.
 - **Entitlements:** Confirm the entitlements set for each product are correct.
@@ -37,10 +37,10 @@ Prior to connecting the new system, we will create a full **snapshot** of the NP
 
 ---
 
-## Phase 3: Cutover & Verification (NPTA Team)
+## Phase 3: Cutover & Verification
 
-- **Disable EDP:** NPTA turns off the legacy EDP app.
-- **Enable automation:** Damian enables the Zapier workflows.
+- **Disable EDP:** Turns off the legacy EDP app.
+- **Enable automation:** Enable the Zapier workflows.
 - **Live verification:** Place a test order on the live store to confirm:
   - Slack notification received
   - Email delivered to test recipient
@@ -51,7 +51,7 @@ Prior to connecting the new system, we will create a full **snapshot** of the NP
 
 ## Phase 4: Full Production Launch
 
-- **Activate customer communications:** Upon successful verification, Damian updates the Zapier configuration to route fulfillment emails directly to customer email addresses, transitioning the system from test to live production traffic.
+- **Activate customer communications:** Upon successful verification, update the Zapier configuration to route fulfillment emails directly to customer email addresses, transitioning the system from test to live production traffic.
 
 ---
 
